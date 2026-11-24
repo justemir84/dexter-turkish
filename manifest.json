@@ -1,0 +1,147 @@
+{
+  "name": "Justelemir TR",
+  "version": "1.2.0",
+  "description": "Sinema.cc, SetFilmizle, Dizibox, Dizilla, DiziPal, RecTV ve YabanciDizi; yil dogrulamali eslesme, Turkce dublaj/altyazi ve HLS kodek (H.264/HEVC/AAC/AC-3) bilgisi",
+  "scrapers": [
+    {
+      "id": "sinemacc",
+      "name": "Sinema.cc",
+      "version": "1.0.0",
+      "description": "sinemacc.com film saglayicisi. TMDB baslik + yil eslesmesi, dublaj/altyazi etiketleri, HLS kalite ve PMT/SPS'ten kodek okuma.",
+      "filename": "providers/sinemacc.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=sinemacc.com&sz=128"
+    },
+    {
+      "id": "setfilmizle",
+      "name": "SetFilmizle",
+      "version": "1.0.0",
+      "description": "setfilmizle.ltd film/dizi saglayicisi. admin-ajax -> setplay -> fastplay HLS zinciri, TR/ENG ses ve VTT altyazi, PMT/SPS'ten kodek okuma.",
+      "filename": "providers/setfilmizle.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=setfilmizle.ltd&sz=128"
+    },
+    {
+      "id": "dizibox",
+      "name": "Dizibox",
+      "version": "1.0.21",
+      "description": "Dizibox dizi kaynaklari (king.php -> sheila HLS).",
+      "filename": "providers/dizibox.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=dizibox.live&sz=128"
+    },
+    {
+      "id": "dizilla",
+      "name": "Dizilla",
+      "version": "1.0.20",
+      "description": "Dizilla yabanci dizi arsivi (HLS + Turkce altyazi).",
+      "filename": "providers/dizilla.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=dizilla.la&sz=128"
+    },
+    {
+      "id": "dizipal",
+      "name": "DiziPal",
+      "version": "1.0.18",
+      "description": "DiziPal - Turkce dizi ve film arsivi; PBKDF2+SHA512 player token -> dplayer82 HLS master.",
+      "filename": "providers/dizipal.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=dizipal1597.com&sz=128"
+    },
+    {
+      "id": "rectv",
+      "name": "RecTV",
+      "version": "1.0.8",
+      "description": "RecTV imzali resmi API film ve dizi katalogu (attest/nonce + HMAC-SHA256; arama ve sezon/bolum uclari, token'li m3u8).",
+      "filename": "providers/rectv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=a.psrectv80.xyz&sz=128"
+    },
+    {
+      "id": "yabancidizi",
+      "name": "YabancıDizi",
+      "version": "1.8.40",
+      "description": "YabanciDizi arsivi (yabancidizi.news); TMDB baslik eslesmesi, VidMoly 1080p HLS, TR dublaj/altyazi etiketleri. Anthology kaynakli ES5 portu.",
+      "filename": "providers/yabancidizi.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=yabancidizi.news&sz=128"
+    }
+  ]
+}
