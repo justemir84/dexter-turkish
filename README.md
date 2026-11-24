@@ -1,6 +1,6 @@
 # dexter-turkish
 
-Dexter için Türkçe içerik sunan üçüncü taraf sitelere yönelik sağlayıcılar.
+
 
 ## Lisans
 
